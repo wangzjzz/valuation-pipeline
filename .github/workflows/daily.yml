@@ -2,7 +2,7 @@ name: Daily Signals
 
 on:
   schedule:
-    - cron: '0 9 * * 1-5'   # 工作日 UTC 09:00 触发 = 北京时间 17:00
+    - cron: '0 9 * * 1-5'   # 工作日 UTC 09:00 = 北京时间 17:00
   workflow_dispatch:
 
 jobs:
@@ -18,7 +18,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install tushare pandas akshare
+          python -m pip install tushare pandas numpy
 
       - name: Run script
         env:
@@ -27,7 +27,7 @@ jobs:
           python calc_signals.py
 
       - name: Upload signals
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: today-signals
           path: data/today_signals.csv
