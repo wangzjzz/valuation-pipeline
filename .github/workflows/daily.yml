@@ -1,42 +1,33 @@
-name: Daily Signals  # 工作流名称，可自定义
+name: Daily Signals
 
 on:
-  # 定时触发：每周一到周五，UTC 09:00 运行一次（UTC+8 即北京时间下午17:00）
   schedule:
-    - cron: '0 9 * * 1-5'
-  # 手动触发（在 Actions 页面可以点击运行）
+    - cron: '0 9 * * 1-5'   # 工作日 UTC 09:00 触发 = 北京时间 17:00
   workflow_dispatch:
 
 jobs:
   run-signals:
     runs-on: ubuntu-latest
     steps:
-      # 第一步：检出仓库代码
       - uses: actions/checkout@v4
 
-      # 第二步：设置 Python 环境
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      # 第三步：安装依赖
       - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        python -m pip install tushare pandas akshare
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install tushare pandas akshare
 
-      # 第四步：运行你的脚本，生成信号文件
       - name: Run script
         env:
-          # 从仓库机密中读取 TuShare Token，名称必须与你设置的 Secrets 名称一致
           TUSHARE_TOKEN: ${{ secrets.TUSHARE_TOKEN }}
         run: |
-          python main.py  # 如有 calc_signals.py，请替换为 python calc_signals.py
+          python calc_signals.py
 
-      # 第五步：上传生成的 CSV 文件为构件，方便在工作流结束后下载（可选）
       - name: Upload signals
         uses: actions/upload-artifact@v3
         with:
           name: today-signals
-          # 如果你的脚本将输出文件放在 data/today_signals.csv，请修改成对应路径
           path: data/today_signals.csv
