@@ -1,0 +1,10 @@
+code,metric_name,latest_metric,percentile,price,ma200,trend,vol_gt_vma20,action,updated_at
+300418.SZ,pe_ttm,122.0258,89.3,36.3,37.3312,below,True,Trim (≤5%),2025-08-12T23:27:30
+300308.SZ,pe_ttm,43.6472,42.0,225.68,124.5382,above,False,Hold – no trade,2025-08-12T23:27:33
+159992.SZ,na,,,,,below,False,Hold – no trade,2025-08-12T23:27:35
+515070.SH,na,,,,,below,False,Hold – no trade,2025-08-12T23:27:37
+515080.SH,na,,,,,below,False,Hold – no trade,2025-08-12T23:27:39
+518880.SH,na,,,,,below,False,Hold – no trade,2025-08-12T23:27:41
+560350.SH,na,,,,,below,False,Hold – no trade,2025-08-12T23:27:42
+588000.SH,na,,,,,below,False,Hold – no trade,2025-08-12T23:27:44
+588790.SH,na,,,,,below,False,Hold – no trade,2025-08-12T23:27:45
