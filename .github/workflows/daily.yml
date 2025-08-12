@@ -1,9 +1,15 @@
 name: Daily Signals
 
 on:
+  # 每周一到周五，UTC 09:00 运行（= 北京时间 17:00）
   schedule:
-    - cron: '0 9 * * 1-5'   # 工作日 UTC 09:00 = 北京时间 17:00
+    - cron: '0 9 * * 1-5'
+  # 允许手动触发
   workflow_dispatch:
+
+# 为了把 CSV 回写到仓库，需要写权限
+permissions:
+  contents: write
 
 jobs:
   run-signals:
@@ -26,6 +32,16 @@ jobs:
         run: |
           python calc_signals.py
 
+      # 回写 CSV 到仓库（data/today_signals.csv）
+      - name: Commit CSV back to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/today_signals.csv
+          git commit -m "update signals: $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || echo "no changes"
+          git push
+
+      # 另外再上传一个下载包（使用 v4）
       - name: Upload signals
         uses: actions/upload-artifact@v4
         with:
