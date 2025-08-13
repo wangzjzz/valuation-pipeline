@@ -1,10 +1,10 @@
 code,metric_name,latest_metric,percentile,price,ma200,trend,vol_gt_vma20,action,updated_at,note
-300418.SZ,pe_ttm,122.0258,89.3,36.3,37.3312,below,True,Trim (≤5%),2025-08-12T23:32:38,end=20250812;end=20250812
-300308.SZ,pe_ttm,43.6472,42.0,225.68,124.5382,above,False,Hold – no trade,2025-08-12T23:32:42,end=20250812;end=20250812
-159992.SZ,na,,,,,below,False,Hold – no trade,2025-08-12T23:32:50,end=20250812;no_daily_data;end=20250812;no_index_basic:000922.SH
-515070.SH,na,,,,,below,False,Hold – no trade,2025-08-12T23:32:57,end=20250812;no_daily_data;end=20250812;no_index_basic:000922.SH
-515080.SH,na,,,,,below,False,Hold – no trade,2025-08-12T23:33:04,end=20250812;no_daily_data;end=20250812;no_index_basic:000922.SH
-518880.SH,na,,,,,below,False,Hold – no trade,2025-08-12T23:33:11,end=20250812;no_daily_data;end=20250812;no_daily_basic
-560350.SH,na,,,,,below,False,Hold – no trade,2025-08-12T23:33:17,end=20250812;no_daily_data;end=20250812;no_index_basic:930050.CSI
-588000.SH,na,,,,,below,False,Hold – no trade,2025-08-12T23:33:24,end=20250812;no_daily_data;end=20250812;no_index_basic:000688.SH
-588790.SH,na,,,,,below,False,Hold – no trade,2025-08-12T23:33:31,end=20250812;no_daily_data;end=20250812;no_index_basic:000688.SH
+300418.SZ,pe_ttm,122.0258,89.3,36.32,37.3014,below,True,Trim (≤5%),2025-08-13T09:41:37,end=20250813;end=20250813
+300308.SZ,pe_ttm,48.7375,50.1,252.0,124.9734,above,True,Hold – no trade,2025-08-13T09:41:39,end=20250813;end=20250813
+159992.SZ,na,,,,,below,False,Hold – no trade,2025-08-13T09:41:45,end=20250813;no_daily_data;end=20250813;no_index_basic:000922.SH
+515070.SH,na,,,,,below,False,Hold – no trade,2025-08-13T09:41:50,end=20250813;no_daily_data;end=20250813;no_index_basic:000922.SH
+515080.SH,na,,,,,below,False,Hold – no trade,2025-08-13T09:41:55,end=20250813;no_daily_data;end=20250813;no_index_basic:000922.SH
+518880.SH,na,,,,,below,False,Hold – no trade,2025-08-13T09:42:01,end=20250813;no_daily_data;end=20250813;no_daily_basic
+560350.SH,na,,,,,below,False,Hold – no trade,2025-08-13T09:42:06,end=20250813;no_daily_data;end=20250813;no_index_basic:930050.CSI
+588000.SH,na,,,,,below,False,Hold – no trade,2025-08-13T09:42:11,end=20250813;no_daily_data;end=20250813;no_index_basic:000688.SH
+588790.SH,na,,,,,below,False,Hold – no trade,2025-08-13T09:42:16,end=20250813;no_daily_data;end=20250813;no_index_basic:000688.SH
