@@ -1,13 +1,14 @@
 name: Daily Signals
 
 on:
-  # 每周一到周五，UTC 09:00 运行（= 北京时间 17:00）
+  # 每周一到周五运行两次：UTC 09:30 和 10:10（对应北京时间 17:30 和 18:10）
   schedule:
-    - cron: '0 9 * * 1-5'
+    - cron: '30 9 * * 1-5'
+    - cron: '10 10 * * 1-5'
   # 允许手动触发
   workflow_dispatch:
 
-# 为了把 CSV 回写到仓库，需要写权限
+# 回写 CSV 到仓库需要写权限
 permissions:
   contents: write
 
@@ -24,7 +25,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install tushare pandas numpy
+          python -m pip install tushare pandas numpy akshare
 
       - name: Run script
         env:
@@ -32,7 +33,6 @@ jobs:
         run: |
           python calc_signals.py
 
-      # 回写 CSV 到仓库（data/today_signals.csv）
       - name: Commit CSV back to repo
         run: |
           git config user.name "github-actions[bot]"
@@ -41,7 +41,6 @@ jobs:
           git commit -m "update signals: $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || echo "no changes"
           git push
 
-      # 另外再上传一个下载包（使用 v4）
       - name: Upload signals
         uses: actions/upload-artifact@v4
         with:
