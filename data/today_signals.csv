@@ -1,10 +1,10 @@
 code,metric_name,latest_metric,percentile,price,ma200,trend,vol_gt_vma20,action,updated_at,note
-300418.SZ,pe_ttm,122.0258,89.3,36.98,37.1502,below,False,Trim (≤5%),2025-08-21T10:46:41,end=20250821;end=20250821
-300308.SZ,pe_ttm,51.2943,53.6,265.22,128.0354,above,False,Hold – no trade,2025-08-21T10:46:59,end=20250821;end=20250821
-159992.SZ,na,,,0.933,0.759,above,False,Hold – no trade,2025-08-21T10:47:19,fund_end=20250821;no_index_basic:000922.SH;ak_empty
-515070.SH,na,,,1.563,1.2176,above,True,Hold – no trade,2025-08-21T10:47:35,fund_end=20250821;no_index_basic:000922.SH;ak_empty
-515080.SH,na,,,1.601,1.5284,above,True,Hold – no trade,2025-08-21T10:47:51,fund_end=20250821;no_index_basic:000922.SH;ak_empty
-518880.SH,na,,,7.394,6.797,above,False,Hold – no trade,2025-08-21T10:48:09,fund_end=20250821;end=20250821;no_daily_basic
-560350.SH,na,,,1.19,1.1176,above,False,Hold – no trade,2025-08-21T10:48:24,fund_end=20250821;no_index_basic:930050.CSI;ak_empty
-588000.SH,na,,,1.208,1.0668,above,True,Hold – no trade,2025-08-21T10:48:47,fund_end=20250821;no_index_basic:000688.SH;ak_empty
-588790.SH,na,,,0.725,0.6699,above,True,Hold – no trade,2025-08-21T10:49:03,fund_end=20250821;use_ma120;no_index_basic:000688.SH;ak_empty
+300418.SZ,pe_ttm,122.0258,89.3,44.38,37.167,above,True,Trim (≤5%),2025-08-22T09:45:17,end=20250822;end=20250822
+300308.SZ,pe_ttm,53.9401,56.3,278.9,128.7236,above,False,Hold – no trade,2025-08-22T09:45:19,end=20250822;end=20250822
+159992.SZ,na,,,0.942,0.7601,above,True,Hold – no trade,2025-08-22T09:45:29,fund_end=20250822;no_index_basic:000922.SH;ak_empty
+515070.SH,na,,,1.674,1.2205,above,True,Hold – no trade,2025-08-22T09:45:37,fund_end=20250822;no_index_basic:000922.SH;ak_empty
+515080.SH,na,,,1.598,1.5288,above,True,Hold – no trade,2025-08-22T09:45:46,fund_end=20250822;no_index_basic:000922.SH;ak_empty
+518880.SH,na,,,7.378,6.8032,above,False,Hold – no trade,2025-08-22T09:45:51,fund_end=20250822;end=20250822;no_daily_basic
+560350.SH,na,,,1.212,1.1181,above,True,Hold – no trade,2025-08-22T09:45:58,fund_end=20250822;no_index_basic:930050.CSI;ak_empty
+588000.SH,na,,,1.323,1.0684,above,True,Hold – no trade,2025-08-22T09:46:06,fund_end=20250822;no_index_basic:000688.SH;ak_empty
+588790.SH,na,,,,,below,False,Hold – no trade,2025-08-22T09:46:14,ma_err:抱歉，您每分钟最多访问该接口500次，权限的具体详情访问：https://tushare.pro/document/1?doc_id=108。;no_index_basic:000688.SH;ak_empty
