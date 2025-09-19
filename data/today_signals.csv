@@ -1,10 +1,10 @@
 code,metric_name,latest_metric,percentile,price,ma200,trend,vol_gt_vma20,action,updated_at,note
-300418.SZ,pe_ttm,122.0258,89.3,43.45,37.0046,above,True,Trim (≤5%),2025-09-19T09:37:51,end=20250919;end=20250919
-300308.SZ,pe_ttm,68.7902,66.6,421.5,153.2397,above,False,Hold – no trade,2025-09-19T09:37:53,end=20250919;end=20250919
-159992.SZ,na,,,0.985,0.783,above,False,Hold – no trade,2025-09-19T09:38:04,fund_end=20250919;no_index_basic:000922.SH;ak_empty
-515070.SH,na,,,1.889,1.2818,above,False,Hold – no trade,2025-09-19T09:38:14,fund_end=20250919;no_index_basic:000922.SH;ak_empty
-515080.SH,na,,,1.538,1.5328,above,True,Hold – no trade,2025-09-19T09:38:23,fund_end=20250919;no_index_basic:000922.SH;ak_empty
-518880.SH,na,,,7.862,6.98,above,True,Hold – no trade,2025-09-19T09:38:30,fund_end=20250919;end=20250919;no_daily_basic
-560350.SH,na,,,1.255,1.1277,above,True,Hold – no trade,2025-09-19T09:38:39,fund_end=20250919;no_index_basic:930050.CSI;ak_empty
-588000.SH,na,,,1.45,1.0992,above,True,Hold – no trade,2025-09-19T09:38:47,fund_end=20250919;no_index_basic:000688.SH;ak_empty
-588790.SH,na,,,0.835,0.6278,above,True,Hold – no trade,2025-09-19T09:38:56,fund_end=20250919;use_ma120;no_index_basic:000688.SH;ak_empty
+300418.SZ,pe_ttm,122.0258,89.3,43.45,37.0046,above,True,Trim (≤5%),2025-09-19T10:32:34,end=20250919;end=20250919
+300308.SZ,pe_ttm,68.7902,66.6,421.5,153.2397,above,False,Hold – no trade,2025-09-19T10:32:37,end=20250919;end=20250919
+159992.SZ,na,,,0.985,0.783,above,False,Hold – no trade,2025-09-19T10:32:55,fund_end=20250919;no_index_basic:000922.SH;ak_empty
+515070.SH,na,,,1.889,1.2818,above,False,Hold – no trade,2025-09-19T10:33:05,fund_end=20250919;no_index_basic:000922.SH;ak_empty
+515080.SH,na,,,1.538,1.5328,above,True,Hold – no trade,2025-09-19T10:33:23,fund_end=20250919;no_index_basic:000922.SH;ak_empty
+518880.SH,na,,,7.862,6.98,above,True,Hold – no trade,2025-09-19T10:33:32,fund_end=20250919;end=20250919;no_daily_basic
+560350.SH,na,,,1.255,1.1277,above,True,Hold – no trade,2025-09-19T10:33:43,fund_end=20250919;no_index_basic:930050.CSI;ak_empty
+588000.SH,na,,,1.45,1.0992,above,True,Hold – no trade,2025-09-19T10:33:53,fund_end=20250919;no_index_basic:000688.SH;ak_empty
+588790.SH,na,,,0.835,0.6278,above,True,Hold – no trade,2025-09-19T10:38:47,fund_end=20250919;use_ma120;no_index_basic:000688.SH;ak_err:Remote end closed connection without response
