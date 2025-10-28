@@ -1,10 +1,10 @@
 code,metric_name,latest_metric,percentile,price,ma200,trend,vol_gt_vma20,action,updated_at,note
-300418.SZ,pe_ttm,122.0258,89.3,43.36,36.8897,above,False,Trim (≤5%),2025-10-28T09:40:23,end=20251028;end=20251028
-300308.SZ,pe_ttm,83.7234,75.0,513.0,183.7137,above,False,Trim (≤5%),2025-10-28T09:40:26,end=20251028;end=20251028
-159992.SZ,na,,,0.908,0.805,above,False,Hold – no trade,2025-10-28T09:40:37,fund_end=20251028;no_index_basic:000922.SH;ak_empty
-515070.SH,na,,,1.992,1.3608,above,True,Hold – no trade,2025-10-28T09:40:48,fund_end=20251028;no_index_basic:000922.SH;ak_empty
-515080.SH,na,,,1.607,1.5363,above,False,Hold – no trade,2025-10-28T09:40:58,fund_end=20251028;no_index_basic:000922.SH;ak_empty
-518880.SH,na,,,8.597,7.2855,above,True,Hold – no trade,2025-10-28T09:41:06,fund_end=20251028;end=20251028;no_daily_basic
-560350.SH,na,,,1.286,1.1455,above,False,Hold – no trade,2025-10-28T09:41:15,fund_end=20251028;no_index_basic:930050.CSI;ak_empty
-588000.SH,na,,,1.545,1.1494,above,False,Hold – no trade,2025-10-28T09:41:25,fund_end=20251028;no_index_basic:000688.SH;ak_empty
-588790.SH,na,,,0.84,0.6761,above,False,Hold – no trade,2025-10-28T09:41:34,fund_end=20251028;use_ma120;no_index_basic:000688.SH;ak_empty
+300418.SZ,pe_ttm,122.0258,89.3,43.36,36.8897,above,False,Trim (≤5%),2025-10-28T10:35:51,end=20251028;end=20251028
+300308.SZ,pe_ttm,83.7234,75.0,513.0,183.7137,above,False,Trim (≤5%),2025-10-28T10:35:54,end=20251028;end=20251028
+159992.SZ,na,,,0.908,0.805,above,False,Hold – no trade,2025-10-28T10:36:06,fund_end=20251028;no_index_basic:000922.SH;ak_empty
+515070.SH,na,,,1.992,1.3608,above,True,Hold – no trade,2025-10-28T10:36:16,fund_end=20251028;no_index_basic:000922.SH;ak_empty
+515080.SH,na,,,1.607,1.5363,above,False,Hold – no trade,2025-10-28T10:36:26,fund_end=20251028;no_index_basic:000922.SH;ak_empty
+518880.SH,na,,,8.597,7.2855,above,True,Hold – no trade,2025-10-28T10:36:34,fund_end=20251028;end=20251028;no_daily_basic
+560350.SH,na,,,1.286,1.1455,above,False,Hold – no trade,2025-10-28T10:36:43,fund_end=20251028;no_index_basic:930050.CSI;ak_empty
+588000.SH,na,,,1.545,1.1494,above,False,Hold – no trade,2025-10-28T10:36:53,fund_end=20251028;no_index_basic:000688.SH;ak_empty
+588790.SH,na,,,0.84,0.6761,above,False,Hold – no trade,2025-10-28T10:37:03,fund_end=20251028;use_ma120;no_index_basic:000688.SH;ak_empty
