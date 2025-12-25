@@ -1,10 +1,10 @@
 code,metric_name,latest_metric,percentile,price,ma200,trend,vol_gt_vma20,action,updated_at,note
-300418.SZ,pe_ttm,122.0258,89.3,39.77,37.4832,above,False,Trim (≤5%),2025-12-24T10:36:35,end=20251224;end=20251224
-300308.SZ,pe_ttm,82.4364,74.6,634.4,268.0125,above,False,Trim (≤5%),2025-12-24T10:36:38,end=20251224;end=20251224
-159992.SZ,na,,,0.853,0.8432,above,True,Hold – no trade,2025-12-24T10:36:50,fund_end=20251224;no_index_basic:000922.SH;ak_empty
-515070.SH,na,,,1.933,1.4925,above,False,Hold – no trade,2025-12-24T10:37:00,fund_end=20251224;no_index_basic:000922.SH;ak_empty
-515080.SH,na,,,1.539,1.5548,below,False,Hold – no trade,2025-12-24T10:37:09,fund_end=20251224;no_index_basic:000922.SH;ak_empty
-518880.SH,na,,,9.642,7.8504,above,True,Hold – no trade,2025-12-24T10:37:16,fund_end=20251224;end=20251224;no_daily_basic
-560350.SH,na,,,1.283,1.1803,above,True,Hold – no trade,2025-12-24T10:37:26,fund_end=20251224;no_index_basic:930050.CSI;ak_empty
-588000.SH,na,,,1.423,1.2225,above,False,Hold – no trade,2025-12-24T10:37:35,fund_end=20251224;no_index_basic:000688.SH;ak_empty
-588790.SH,na,,,0.761,0.7122,above,False,Hold – no trade,2025-12-24T10:37:44,fund_end=20251224;no_index_basic:000688.SH;ak_empty
+300418.SZ,pe_ttm,122.0258,89.3,,,below,False,Trim (≤5%),2025-12-25T09:42:32,ma_err:抱歉，您每分钟最多访问该接口500次，权限的具体详情访问：https://tushare.pro/document/1?doc_id=108。;end=20251225
+300308.SZ,pe_ttm,83.1381,75.1,,,below,False,Trim (≤5%),2025-12-25T09:42:38,ma_err:抱歉，您每分钟最多访问该接口500次，权限的具体详情访问：https://tushare.pro/document/1?doc_id=108。;end=20251225
+159992.SZ,na,,,,,below,False,Hold – no trade,2025-12-25T09:42:48,ma_err:抱歉，您每分钟最多访问该接口500次，权限的具体详情访问：https://tushare.pro/document/1?doc_id=108。;no_index_basic:000922.SH;ak_empty
+515070.SH,na,,,,,below,False,Hold – no trade,2025-12-25T09:42:57,ma_err:抱歉，您每分钟最多访问该接口500次，权限的具体详情访问：https://tushare.pro/document/1?doc_id=108。;no_index_basic:000922.SH;ak_empty
+515080.SH,na,,,,,below,False,Hold – no trade,2025-12-25T09:43:06,ma_err:抱歉，您每分钟最多访问该接口500次，权限的具体详情访问：https://tushare.pro/document/1?doc_id=108。;no_index_basic:000922.SH;ak_empty
+518880.SH,na,,,,,below,False,Hold – no trade,2025-12-25T09:43:11,ma_err:抱歉，您每分钟最多访问该接口500次，权限的具体详情访问：https://tushare.pro/document/1?doc_id=108。;end=20251225;no_daily_basic
+560350.SH,na,,,1.286,1.1812,above,False,Hold – no trade,2025-12-25T09:43:19,fund_end=20251225;no_index_basic:930050.CSI;ak_empty
+588000.SH,na,,,1.422,1.2239,above,False,Hold – no trade,2025-12-25T09:43:27,fund_end=20251225;no_index_basic:000688.SH;ak_empty
+588790.SH,na,,,0.768,0.7095,above,True,Hold – no trade,2025-12-25T09:43:34,fund_end=20251225;no_index_basic:000688.SH;ak_empty
