@@ -1,10 +1,10 @@
 code,metric_name,latest_metric,percentile,price,ma200,trend,vol_gt_vma20,action,updated_at,note
-300418.SZ,pe_ttm,122.0258,89.3,62.31,38.2569,above,True,Trim (≤5%),2026-01-15T09:48:05,end=20260115;end=20260115
-300308.SZ,pe_ttm,81.2175,74.1,625.02,303.4988,above,True,Trim (≤5%),2026-01-15T09:48:08,end=20260115;end=20260115
-159992.SZ,na,,,0.89,0.8535,above,False,Hold – no trade,2026-01-15T09:48:18,fund_end=20260115;no_index_basic:000922.SH;ak_empty
-515070.SH,na,,,2.136,1.5427,above,True,Hold – no trade,2026-01-15T09:48:28,fund_end=20260115;no_index_basic:000922.SH;ak_empty
-515080.SH,na,,,,,below,False,Hold – no trade,2026-01-15T09:48:37,ma_err:抱歉，您每分钟最多访问该接口500次，权限的具体详情访问：https://tushare.pro/document/1?doc_id=108。;no_index_basic:000922.SH;ak_empty
-518880.SH,na,,,,,below,False,Hold – no trade,2026-01-15T09:48:46,ma_err:抱歉，您每分钟最多访问该接口500次，权限的具体详情访问：https://tushare.pro/document/1?doc_id=108。;end=20260115;no_daily_basic
-560350.SH,na,,,,,below,False,Hold – no trade,2026-01-15T09:48:55,ma_err:抱歉，您每分钟最多访问该接口500次，权限的具体详情访问：https://tushare.pro/document/1?doc_id=108。;no_index_basic:930050.CSI;ak_empty
-588000.SH,na,,,1.573,1.2476,above,True,Hold – no trade,2026-01-15T09:49:04,fund_end=20260115;no_index_basic:000688.SH;ak_empty
-588790.SH,na,,,0.907,0.6929,above,True,Hold – no trade,2026-01-15T09:49:13,fund_end=20260115;no_index_basic:000688.SH;ak_empty
+300418.SZ,pe_ttm,122.0258,89.3,62.31,38.2569,above,True,Trim (≤5%),2026-01-15T10:40:59,end=20260115;end=20260115
+300308.SZ,pe_ttm,81.2175,74.1,625.02,303.4988,above,True,Trim (≤5%),2026-01-15T10:41:02,end=20260115;end=20260115
+159992.SZ,na,,,0.89,0.8535,above,False,Hold – no trade,2026-01-15T10:41:11,fund_end=20260115;no_index_basic:000922.SH;ak_empty
+515070.SH,na,,,2.136,1.5427,above,True,Hold – no trade,2026-01-15T10:41:19,fund_end=20260115;no_index_basic:000922.SH;ak_empty
+515080.SH,na,,,1.558,1.5582,below,False,Hold – no trade,2026-01-15T10:41:28,fund_end=20260115;no_index_basic:000922.SH;ak_empty
+518880.SH,na,,,9.867,8.0579,above,False,Hold – no trade,2026-01-15T10:41:34,fund_end=20260115;end=20260115;no_daily_basic
+560350.SH,na,,,1.295,1.1923,above,False,Hold – no trade,2026-01-15T10:41:42,fund_end=20260115;no_index_basic:930050.CSI;ak_empty
+588000.SH,na,,,1.573,1.2476,above,True,Hold – no trade,2026-01-15T10:41:49,fund_end=20260115;no_index_basic:000688.SH;ak_empty
+588790.SH,na,,,0.907,0.6929,above,True,Hold – no trade,2026-01-15T10:41:57,fund_end=20260115;no_index_basic:000688.SH;ak_empty
