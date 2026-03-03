@@ -1,10 +1,10 @@
 code,metric_name,latest_metric,percentile,price,ma200,trend,vol_gt_vma20,action,updated_at,note
-300418.SZ,pe_ttm,122.0258,89.3,52.3,41.6303,above,False,Trim (≤5%),2026-03-03T10:04:18,end=20260303;end=20260303
-300308.SZ,pe_ttm,58.0118,57.4,563.8,369.9833,above,True,Hold – no trade,2026-03-03T10:04:21,end=20260303;end=20260303
-159992.SZ,na,,,0.778,0.8691,below,True,Hold – no trade,2026-03-03T10:04:32,fund_end=20260303;no_index_basic:000922.SH;ak_empty
-515070.SH,na,,,1.946,1.6649,above,True,Hold – no trade,2026-03-03T10:04:42,fund_end=20260303;no_index_basic:000922.SH;ak_empty
-515080.SH,na,,,1.676,1.5726,above,True,Hold – no trade,2026-03-03T10:04:52,fund_end=20260303;no_index_basic:000922.SH;ak_empty
-518880.SH,na,,,11.259,8.5221,above,False,Hold – no trade,2026-03-03T10:05:01,fund_end=20260303;end=20260303;no_daily_basic
-560350.SH,na,,,1.258,1.2179,above,False,Hold – no trade,2026-03-03T10:05:10,fund_end=20260303;no_index_basic:930050.CSI;ak_empty
-588000.SH,na,,,1.464,1.316,above,True,Hold – no trade,2026-03-03T10:05:20,fund_end=20260303;no_index_basic:000688.SH;ak_empty
-588790.SH,na,,,0.857,0.7373,above,True,Hold – no trade,2026-03-03T10:05:30,fund_end=20260303;no_index_basic:000688.SH;ak_empty
+300418.SZ,pe_ttm,122.0258,89.3,52.3,41.6303,above,False,Trim (≤5%),2026-03-03T10:58:36,end=20260303;end=20260302
+300308.SZ,pe_ttm,58.0118,57.4,570.58,367.5976,above,True,Hold – no trade,2026-03-03T10:59:10,end=20260302;end=20260303
+159992.SZ,na,,,0.778,0.8691,below,True,Hold – no trade,2026-03-03T10:59:20,fund_end=20260303;no_index_basic:000922.SH;ak_empty
+515070.SH,na,,,1.946,1.6649,above,True,Hold – no trade,2026-03-03T10:59:29,fund_end=20260303;no_index_basic:000922.SH;ak_empty
+515080.SH,na,,,1.676,1.5726,above,True,Hold – no trade,2026-03-03T10:59:38,fund_end=20260303;no_index_basic:000922.SH;ak_empty
+518880.SH,na,,,11.417,8.5039,above,False,Hold – no trade,2026-03-03T11:00:16,fund_end=20260302;end=20260303;no_daily_basic
+560350.SH,na,,,1.258,1.2179,above,False,Hold – no trade,2026-03-03T11:00:24,fund_end=20260303;no_index_basic:930050.CSI;ak_empty
+588000.SH,na,,,,,below,False,Hold – no trade,2026-03-03T11:01:05,"ma_err:HTTPConnectionPool(host='api.waditu.com', port=80): Read timed out. (read timeout=30);no_index_basic:000688.SH;ak_empty"
+588790.SH,na,,,0.857,0.7373,above,True,Hold – no trade,2026-03-03T11:01:42,"fund_end=20260303;val_err:HTTPConnectionPool(host='api.waditu.com', port=80): Read timed out. (read timeout=30)"
