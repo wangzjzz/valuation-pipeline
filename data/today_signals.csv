@@ -1,10 +1,10 @@
 code,metric_name,latest_metric,percentile,price,ma200,trend,vol_gt_vma20,action,updated_at,note
-300418.SZ,pe_ttm,122.0258,89.3,45.93,47.203,below,True,Trim (≤5%),2026-07-14T11:42:12,end=20260714;end=20260714
-300308.SZ,pe_ttm,88.334,77.3,1184.05,705.7288,above,True,Trim (≤5%),2026-07-14T11:42:14,end=20260714;end=20260714
-159992.SZ,na,,,0.878,0.8467,above,True,Hold – no trade,2026-07-14T11:42:29,fund_end=20260714;no_index_basic:000922.SH;ak_empty
-515070.SH,na,,,1.318,2.0535,below,True,Hold – no trade,2026-07-14T11:42:37,fund_end=20260714;no_index_basic:000922.SH;ak_empty
-515080.SH,na,,,1.494,1.5808,below,True,Hold – no trade,2026-07-14T11:43:07,fund_end=20260714;no_index_basic:000922.SH;ak_empty
-518880.SH,na,,,8.373,9.4545,below,False,Hold – no trade,2026-07-14T11:43:13,fund_end=20260714;end=20260714;no_daily_basic
-560350.SH,na,,,1.279,1.2844,below,False,Hold – no trade,2026-07-14T11:43:21,fund_end=20260714;no_index_basic:930050.CSI;ak_empty
-588000.SH,na,,,2.125,1.5904,above,True,Hold – no trade,2026-07-14T11:43:29,fund_end=20260714;no_index_basic:000688.SH;ak_empty
-588790.SH,na,,,0.937,0.8531,above,True,Hold – no trade,2026-07-14T11:43:39,fund_end=20260714;no_index_basic:000688.SH;ak_empty
+300418.SZ,pe_ttm,122.0258,89.3,46.11,47.2234,below,False,Trim (≤5%),2026-07-15T11:06:44,end=20260715;end=20260715
+300308.SZ,na,,,1169.31,709.3756,above,False,Hold – no trade,2026-07-15T11:06:49,end=20260715;val_err:抱歉，您访问接口(daily_basic)频率超限(1次/分钟)，具体频次详情：https://tushare.pro/document/1?doc_id=108。
+159992.SZ,na,,,,,below,False,Hold – no trade,2026-07-15T11:06:58,ma_err:抱歉，您没有接口(fund_daily)访问权限，权限的具体详情访问：https://tushare.pro/document/1?doc_id=108。;val_err:抱歉，您没有接口(index_dailybasic)访问权限，权限的具体详情访问：https://tushare.pro/document/1?doc_id=108。
+515070.SH,na,,,,,below,False,Hold – no trade,2026-07-15T11:07:08,ma_err:抱歉，您没有接口(fund_daily)访问权限，权限的具体详情访问：https://tushare.pro/document/1?doc_id=108。;val_err:抱歉，您没有接口(index_dailybasic)访问权限，权限的具体详情访问：https://tushare.pro/document/1?doc_id=108。
+515080.SH,na,,,,,below,False,Hold – no trade,2026-07-15T11:07:17,ma_err:抱歉，您没有接口(fund_daily)访问权限，权限的具体详情访问：https://tushare.pro/document/1?doc_id=108。;val_err:抱歉，您没有接口(index_dailybasic)访问权限，权限的具体详情访问：https://tushare.pro/document/1?doc_id=108。
+518880.SH,na,,,,,below,False,Hold – no trade,2026-07-15T11:07:26,ma_err:抱歉，您没有接口(fund_daily)访问权限，权限的具体详情访问：https://tushare.pro/document/1?doc_id=108。;val_err:抱歉，您访问接口(daily_basic)频率超限(1次/分钟)，具体频次详情：https://tushare.pro/document/1?doc_id=108。
+560350.SH,na,,,,,below,False,Hold – no trade,2026-07-15T11:07:36,ma_err:抱歉，您没有接口(fund_daily)访问权限，权限的具体详情访问：https://tushare.pro/document/1?doc_id=108。;val_err:抱歉，您没有接口(index_dailybasic)访问权限，权限的具体详情访问：https://tushare.pro/document/1?doc_id=108。
+588000.SH,na,,,,,below,False,Hold – no trade,2026-07-15T11:07:46,ma_err:抱歉，您没有接口(fund_daily)访问权限，权限的具体详情访问：https://tushare.pro/document/1?doc_id=108。;val_err:抱歉，您没有接口(index_dailybasic)访问权限，权限的具体详情访问：https://tushare.pro/document/1?doc_id=108。
+588790.SH,na,,,,,below,False,Hold – no trade,2026-07-15T11:07:55,ma_err:抱歉，您没有接口(fund_daily)访问权限，权限的具体详情访问：https://tushare.pro/document/1?doc_id=108。;val_err:抱歉，您没有接口(index_dailybasic)访问权限，权限的具体详情访问：https://tushare.pro/document/1?doc_id=108。
