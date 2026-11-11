@@ -1,10 +1,10 @@
 code,metric_name,latest_metric,percentile,price,ma200,trend,vol_gt_vma20,action,updated_at,note
-300418.SZ,na,,,,,below,False,Hold – no trade,2026-11-11T17:18:37,ma_err:您的token不对，请确认。;val_err:您的token不对，请确认。
-300308.SZ,na,,,,,below,False,Hold – no trade,2026-11-11T17:18:45,ma_err:您的token不对，请确认。;val_err:您的token不对，请确认。
-159992.SZ,na,,,,,below,False,Hold – no trade,2026-11-11T17:18:52,ma_err:您的token不对，请确认。;val_err:您的token不对，请确认。
-515070.SH,na,,,,,below,False,Hold – no trade,2026-11-11T17:19:00,ma_err:您的token不对，请确认。;val_err:您的token不对，请确认。
-515080.SH,na,,,,,below,False,Hold – no trade,2026-11-11T17:19:07,ma_err:您的token不对，请确认。;val_err:您的token不对，请确认。
-518880.SH,na,,,,,below,False,Hold – no trade,2026-11-11T17:19:14,ma_err:您的token不对，请确认。;val_err:您的token不对，请确认。
-560350.SH,na,,,,,below,False,Hold – no trade,2026-11-11T17:19:22,ma_err:您的token不对，请确认。;val_err:您的token不对，请确认。
-588000.SH,na,,,,,below,False,Hold – no trade,2026-11-11T17:19:29,ma_err:您的token不对，请确认。;val_err:您的token不对，请确认。
-588790.SH,na,,,,,below,False,Hold – no trade,2026-11-11T17:19:36,ma_err:您的token不对，请确认。;val_err:您的token不对，请确认。
+300418.SZ,na,,,,,below,False,Hold – no trade,2026-11-11T17:51:44,ma_err:您的token不对，请确认。;val_err:您的token不对，请确认。
+300308.SZ,na,,,,,below,False,Hold – no trade,2026-11-11T17:51:53,ma_err:您的token不对，请确认。;val_err:您的token不对，请确认。
+159992.SZ,na,,,,,below,False,Hold – no trade,2026-11-11T17:52:01,ma_err:您的token不对，请确认。;val_err:您的token不对，请确认。
+515070.SH,na,,,,,below,False,Hold – no trade,2026-11-11T17:52:10,ma_err:您的token不对，请确认。;val_err:您的token不对，请确认。
+515080.SH,na,,,,,below,False,Hold – no trade,2026-11-11T17:52:48,"ma_err:您的token不对，请确认。;val_err:HTTPConnectionPool(host='api.waditu.com', port=80): Read timed out. (read timeout=30)"
+518880.SH,na,,,,,below,False,Hold – no trade,2026-11-11T17:52:57,ma_err:您的token不对，请确认。;val_err:您的token不对，请确认。
+560350.SH,na,,,,,below,False,Hold – no trade,2026-11-11T17:53:05,ma_err:您的token不对，请确认。;val_err:您的token不对，请确认。
+588000.SH,na,,,,,below,False,Hold – no trade,2026-11-11T17:53:13,ma_err:您的token不对，请确认。;val_err:您的token不对，请确认。
+588790.SH,na,,,,,below,False,Hold – no trade,2026-11-11T17:53:21,ma_err:您的token不对，请确认。;val_err:您的token不对，请确认。
